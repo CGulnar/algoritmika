@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Roboto:ital,wght@0,400;0,500;0,700;1,400&display=swap');
+.container {
+    margin: 0 auto;
+    max-width: 1400px;
+    display: flex;
+    flex-direction: column;
+}
+
+.container .top {
+    display: flex;
+    align-items: center;
+    margin-top: 91px;
+    column-gap: 190px;
+}
+
+.container .top h1 {
+    font-family: 'Roboto Slab';
+    font-weight: bold;
+    font-size: 55px;
+    font-style: normal;
+    line-height: 101.38%;
+}
+
+.container .top p {
+    max-width: 662px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 150%;
+}
+
+.container .top .right {
+    position: relative;
+}
+
+.container .top .right #kolge {
+    position: absolute;
+    right: -14px;
+    bottom: -27px;
+    z-index: -1;
+}
+
+.container .bottom {
+    display: flex;
+    align-items: center;
+    column-gap: 132px;
+}
+.container .bottom .menu{
+    display: flex;
+    align-items: start;
+    column-gap: 95px;
+}
+
+.container .bottom .menu li{
+    display: flex;
+    flex-direction: column;
+    max-width: 150px;
+}
+.container .bottom .menu li span:first-child{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 130%;
+}
+.container .bottom .menu li span:last-child {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 130%;
+}
